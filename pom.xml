@@ -17,6 +17,9 @@
     <modules>
         <module>app-utils</module>
         <module>app-register</module>
+        <module>app-config</module>
+        <module>app-monitor</module>
+        <module>person-service</module>
     </modules>
 
 	<name>docker-cloud-app</name>
