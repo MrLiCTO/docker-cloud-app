@@ -9,8 +9,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>person-service</module>
         <module>app-common</module>
+
+        <module>person-service</module>
+        <module>bank-service</module>
     </modules>
 
 	<name>docker-cloud-app</name>
