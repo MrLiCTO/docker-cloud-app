@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-parent</artifactId>
+		<version>Edgware.SR3</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<repositories>
+		<repository>
+			<id>ali</id>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<groupId>com.wxcs.person</groupId>
+	<version>1.0</version>
+	<artifactId>person-service</artifactId>
+	<packaging>pom</packaging>
+
+	<name>person-service</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+
+	</properties>
+
+	<modules>
+		<module>person-client</module>
+		<module>person-domain</module>
+		<module>person-pojo</module>
+		<module>person-restapi</module>
+		<module>person-wap</module>
+		<module>person-webui</module>
+	</modules>
+
+	<dependencies>
+
+	</dependencies>
+
+
+
+</project>
